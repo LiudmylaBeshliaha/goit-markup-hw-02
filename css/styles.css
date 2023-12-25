@@ -1,0 +1,68 @@
+:root {
+    --primary-text-color:  #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    
+}
+
+.page {
+    background: #FFF;
+    color: var(--title-text-color);
+
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+a .logo1{
+    color: var(--accent-color);
+}
+a .logo2{
+    color: #000;
+
+}
+
+.header {
+    font-size: 26px;
+
+}
+ul {
+    list-style: none;
+}
+.site-nav a{
+    color: var(--primary-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus
+{
+    color: var(--accent-color);
+}
+.hero-title{
+    color: #FFF;
+}
+.section-title{
+    color: var(--primary-text-color);
+}
+.site-nav .link{
+    color: var(--primary-text-color); 
+}
+.auth-nav a{
+    color: var(--title-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus
+{
+    color: var(--accent-color);
+}
+/*rgba(255, 255, 255, 1) білий
+rgba(33, 33, 33, 1) черний
+rgba(117, 117, 117, 1) сірий
+rgba(33, 150, 243, 1) синий
+rgba(255, 255, 255, 0.6) черный с прозрачным
+rgba(255, 255, 255, 1) черный
+
+*/
