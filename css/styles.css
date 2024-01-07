@@ -3,6 +3,7 @@
     --title-text-color: #757575;
     --accent-color: #2196F3;
     
+    
 }
 
 a {
@@ -33,6 +34,27 @@ a .logo1{
 a .logo2{
     color: #000;
 
+}
+
+a .logo3{
+    color: #000;  /* #FFF */
+
+}
+
+.siti{
+    color: #000;    /* #FFF */
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.footer-adress{
+    font-style: normal;
+}
+
+.footer-adress-a{
+    color: #000; /* rgba(255, 255, 255, 0.60);*/
+    font-family: Roboto;
+    font-size: 14px;
 }
 
 .header {
@@ -82,11 +104,18 @@ p{
     font-size: 14px;
 }
 
-.hero-title{
-    color: #FFF;
+.h2-center{
+    text-align: center;
 }
+
+.hero-title{
+    color: #000; /* #FFF;*/
+    text-align: center;
+}
+
 .section-title{
     color: var(--primary-text-color);
+
 }
 .site-nav .link{
     color: var(--primary-text-color); 
