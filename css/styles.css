@@ -6,6 +6,12 @@
     
 }
 
+.button-div{
+    background-color: var(--accent-color);
+    text-align: center;
+      
+}
+
 a {
     text-decoration: none;
   }
@@ -37,12 +43,12 @@ a .logo2{
 }
 
 a .logo3{
-    color: #000;  /* #FFF */
+    color: #FFF;
 
 }
 
 .siti{
-    color: #000;    /* #FFF */
+    color:  #FFF;
     font-family: Roboto;
     font-size: 14px;
 }
@@ -52,9 +58,10 @@ a .logo3{
 }
 
 .footer-adress-a{
-    color: #000; /* rgba(255, 255, 255, 0.60);*/
+    color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
     font-size: 14px;
+    font-weight: 400;
 }
 
 .header {
@@ -85,8 +92,8 @@ ul {
     letter-spacing: 0.28px;
 }
 
-.site-nav a{
-    color: var(--primary-text-color);
+.link{
+    color: #212121;
 }
 .site-nav a:hover,
 .site-nav a:focus
@@ -106,20 +113,39 @@ p{
 
 .h2-center{
     text-align: center;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
 }
 
 .hero-title{
-    color: #000; /* #FFF;*/
+    color: #FFF;
     text-align: center;
+    font-weight: 900;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+.p-size{
+    font-weight: 400;
 }
 
 .section-title{
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
 
 }
-.site-nav .link{
-    color: var(--primary-text-color); 
-}
+
 .auth-nav a{
     color: var(--title-text-color);
 }
@@ -127,6 +153,15 @@ p{
 .auth-nav a:focus
 {
     color: var(--accent-color);
+}
+
+
+.bg-color{
+    background-color: #2F303A;
+}
+
+.bg-color2{
+    background-color: #F5F4FA;
 }
 /*rgba(255, 255, 255, 1) білий
 rgba(33, 33, 33, 1) черний
