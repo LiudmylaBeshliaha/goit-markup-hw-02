@@ -76,10 +76,9 @@ ul {
     color: #212121;
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
+    
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+    
 }
 
 .auth-nav{
@@ -92,19 +91,35 @@ ul {
     letter-spacing: 0.28px;
 }
 
-.link{
+
+.site-nav a
+{
     color: #212121;
 }
+
 .site-nav a:hover,
 .site-nav a:focus
 {
     color: var(--accent-color);
 }
+
+.site-nav .link.current{
+    color: #2196F3;
+}
+
 p{
     color: #757575;
     font-size: 16px;
     line-height: normal;
 
+}
+
+.b-type button:hover {
+    background-color: #2196F3;
+}
+
+.section .button.activ {
+    background-color: #2196F3;
 }
 
 .p-size{
