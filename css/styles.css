@@ -2,20 +2,124 @@
     --primary-text-color:  #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
-    
-    
+    --text-color-decoration: #FFFFFF;
+    --background-box: #2F303A;
+    --background-main-box: #F5F4FA;
+    --text-color-logo: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*логотип*/
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+a .logo1{
+    color: var(--accent-color);
+}
+
+a .logo2{
+    color: var(--text-color-logo);
+}
+
+a .logo3{
+    color: var(--text-color-decoration); 
+}
+
+.footer.bg-color{
+    background-color: var(--background-box);
+}
+
+/*навигация*/
+.site-nav a{
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/*навыгация*/
+.b-type button:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color-decoration);
+}
+
+.section .active {
+    background-color: var(--accent-color);
+    color: var(--text-color-decoration);
+}
+
+.auth-nav a{
+    color: var(--title-text-color);
+}
+
+.auth-nav .nav-hover:hover{
+    color: var(--accent-color);
+}
+
+.bg-color{
+    background-color: var(--background-box);
+} 
+
+.hero-title{
+    color: var(--text-color-decoration);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .button-div{
     background-color: var(--accent-color);
-    text-align: center;
-      
+    color: var(--text-color-decoration);   
+}
+.footer .footer-adress{
+    color: var(--text-color-decoration);
 }
 
-a {
-    text-decoration: none;
-  }
+.footer-adress-a{
+    color: var(--text-color-decoration);
+}
 
+h3{
+    color: var(--primary-text-color);
+}
+
+.p-size{
+    color: var(--title-text-color);
+}
+
+.h2-center{
+    color: var(--primary-text-color);
+    text-align: center;
+}
+
+.section-title h3,
+.section-title p{
+    text-align: center;
+}
+
+.title-h2{
+    color: var(--primary-text-color);
+}
+
+.portfolio-p{
+    color: var(--title-text-color);
+}
+/*
 body{
     font-family: Roboto, sans-serif;
     letter-spacing: 0.42px;
@@ -24,26 +128,6 @@ body{
 .page {
     background: #FFF;
     color: var(--title-text-color);
-
-}
-.logo {
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-}
-a .logo1{
-    color: var(--accent-color);
-}
-a .logo2{
-    color: #000;
-
-}
-
-a .logo3{
-    color: #FFF;
 
 }
 
@@ -68,9 +152,7 @@ a .logo3{
     font-size: 26px;
 
 }
-ul {
-    list-style: none;
-}
+
 
 .navigation{
     color: #212121;
@@ -81,31 +163,6 @@ ul {
     
 }
 
-.auth-nav{
-    color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-}
-
-
-.site-nav a
-{
-    color: #212121;
-}
-
-.site-nav a:hover,
-.site-nav a:focus
-{
-    color: var(--accent-color);
-}
-
-.site-nav .link.current{
-    color: #2196F3;
-}
 
 p{
     color: #757575;
@@ -113,15 +170,6 @@ p{
     line-height: normal;
 
 }
-
-.b-type button:hover {
-    background-color: #2196F3;
-}
-
-.section .active {
-    background-color: #2196F3;
-}
-
 .p-size{
     font-size: 14px;
 }
@@ -138,13 +186,7 @@ p{
     letter-spacing: 1.08px;
 }
 
-.hero-title{
-    color: #FFF;
-    text-align: center;
-    font-weight: 900;
-    font-family: Roboto;
-    text-transform: uppercase;
-}
+
 
 .p-size{
     font-weight: 400;
@@ -171,18 +213,16 @@ p{
 }
 
 
-.bg-color{
-    background-color: #2F303A;
-}
+
 
 .bg-color2{
     background-color: #F5F4FA;
-}
+} */
 /*rgba(255, 255, 255, 1) білий
-rgba(33, 33, 33, 1) черний
+rgba(33, 33, 33, 1) чорний
 rgba(117, 117, 117, 1) сірий
 rgba(33, 150, 243, 1) синий
-rgba(255, 255, 255, 0.6) черный с прозрачным
+rgba(255, 255, 255, 0.6) ченый с прозрачным
 rgba(255, 255, 255, 1) черный
 
 */
