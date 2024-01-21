@@ -16,11 +16,32 @@ ul{
     list-style: none;
 }
 
+body{
+   font-family: Roboto, sans-serif; 
+}
+
+button{
+    font-family: inherit;
+}
+
+header{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
 /*логотип*/
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
+    letter-spacing: 0.78px;
 }
 
 a .logo1{
@@ -80,14 +101,29 @@ a .logo3{
     color: var(--text-color-decoration);
     text-align: center;
     text-transform: uppercase;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
 }
 
 .button-div{
     background-color: var(--accent-color);
-    color: var(--text-color-decoration);   
+    color: var(--text-color-decoration); 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.96px;  
 }
 .footer .footer-adress{
     color: var(--text-color-decoration);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+    font-style: normal;
 }
 
 .footer-adress-a{
@@ -96,15 +132,29 @@ a .logo3{
 
 h3{
     color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 
 .p-size{
     color: var(--title-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
 }
 
 .h2-center{
     color: var(--primary-text-color);
     text-align: center;
+}
+
+.h3-index{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
 }
 
 .section-title h3,
@@ -112,117 +162,20 @@ h3{
     text-align: center;
 }
 
+.p-size{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+
 .title-h2{
     color: var(--primary-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
 }
 
 .portfolio-p{
     color: var(--title-text-color);
 }
-/*
-body{
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.42px;
-}
-
-.page {
-    background: #FFF;
-    color: var(--title-text-color);
-
-}
-
-.siti{
-    color:  #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-}
-
-.footer-adress{
-    font-style: normal;
-}
-
-.footer-adress-a{
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.header {
-    font-size: 26px;
-
-}
-
-
-.navigation{
-    color: #212121;
-    font-family: Roboto;
-    font-size: 14px;
-    
-    font-weight: 500;
-    
-}
-
-
-p{
-    color: #757575;
-    font-size: 16px;
-    line-height: normal;
-
-}
-.p-size{
-    font-size: 14px;
-}
-
-.h2-center{
-    text-align: center;
-    color: #212121;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-}
-
-
-
-.p-size{
-    font-weight: 400;
-}
-
-.section-title{
-    color: var(--primary-text-color);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.48px;
-
-}
-
-.auth-nav a{
-    color: var(--title-text-color);
-}
-.auth-nav a:hover,
-.auth-nav a:focus
-{
-    color: var(--accent-color);
-}
-
-
-
-
-.bg-color2{
-    background-color: #F5F4FA;
-} */
-/*rgba(255, 255, 255, 1) білий
-rgba(33, 33, 33, 1) чорний
-rgba(117, 117, 117, 1) сірий
-rgba(33, 150, 243, 1) синий
-rgba(255, 255, 255, 0.6) ченый с прозрачным
-rgba(255, 255, 255, 1) черный
-
-*/
